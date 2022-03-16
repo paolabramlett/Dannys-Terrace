@@ -59,7 +59,17 @@
         <div class="hero-text">
             <h1>Danny's Terrace</h1>
             <p>Restaurant-Bar</p>
-            <button type="button" class="btn btn-light">Encuéntranos</button>
+            <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#maps">Encuéntranos</button>
+        </div>
+    </div>
+
+    <div id="maps" class="collapse">
+        <div class="container-fluid padding">
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.906736555361!2d-97.06551648451733!3d15.861498349183075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8f58588c026e5%3A0x3fe32a41c55ee651!2sRestaurante%20Danny&#39;s%20Terrace!5e0!3m2!1sen!2smx!4v1647465150039!5m2!1sen!2smx"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
     </div>
 
@@ -75,19 +85,7 @@
         </p>
     </div>
 
-    <button class="ubi btn btn-primary" data-toggle="collapse" data-target="#maps">
-        Ubicación
-    </button>
     
-    <div id="maps" class="collapse">
-        <div class="container-fluid padding">
-            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.906736555361!2d-97.06551648451733!3d15.861498349183075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8f58588c026e5%3A0x3fe32a41c55ee651!2sRestaurante%20Danny&#39;s%20Terrace!5e0!3m2!1sen!2smx!4v1647465150039!5m2!1sen!2smx"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-    </div>
 
     <div class="container-fluid padding">
         <div class="row welcome text-center">
@@ -348,6 +346,10 @@
         </div>
        
     </footer>
+
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
