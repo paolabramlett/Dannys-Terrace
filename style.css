@@ -83,3 +83,23 @@ html {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.contact {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
