@@ -128,3 +128,12 @@ html {
   width: 85%;
   padding-top: 5rem;
 }
+
+.menu1 {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.menuUno {
+  max-width: 100%;
+}
