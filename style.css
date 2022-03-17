@@ -119,3 +119,8 @@ html {
   margin: 0 auto;
   margin-top: 5rem;
 }
+
+.about {
+  width: 85%;
+  padding-top: 5rem;
+}
